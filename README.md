@@ -12,6 +12,7 @@ The repository contains a collection of components made by Tailwindcss framework
 ## Collection List
 
  - **[Profile card](profile-card.html)**
+ - **[Reviews](reviews.html)**
 
 <br>
 <br>

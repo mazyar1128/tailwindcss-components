@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Mazyar">
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Profile Card</title>
+</head>
+
+<section class="font-poppins bg-gray-200 flex font-medium items-center justify-center h-screen">
+
+    <section class="max-w-md mx-auto bg-gray-100 rounded-2xl px-12 py-8 shadow-lg text-gray-800">
+        <div class="flex justify-between space-x-10">
+            <span class="w-3/5 text-2xl  font-semibold ">What others think about the product</span>
+            <div class="w-1/3 bg-white p-3  flex flex-col justify-between rounded-xl shadow-md shadow-gray-200">
+                <div class="flex justify-center  items-center text-center w-full space-x-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-yellow-400 stroke-1 fill-yellow-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                      </svg>
+                      <span class="font-semibold text-xl">4.8</span>
+                </div>
+                <div class="text-xxs text-center text-gray-700">Average customer rating</div>
+            </div>
+        </div>
+
+        <div class="mt-10 relative items-center content-center flex">
+            <span class="text-gray-400 absolute left-4 cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                </svg>
+            </span>
+            <input type="text" class="text-xs bg-white  pl-10 pr-5 text-gray-600  py-3 rounded-full w-full outline-none focus:ring-1 focus:ring-gray-200" placeholder="Search topics and reviews">
+        </div>
+
+        <div class="mt-6">
+            <span class="text-sm">Reviews</span>
+            <ul class="text-xs font-medium mt-2 mx-2 space-y-4">
+                <li class="flex items-center space-x-1.5">
+                    <span class="w-3 text-right">5</span>
+                    <svg class="h-5 w-5 stroke-yellow-400 stroke-1 fill-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+                    </svg>
+                    <div class="relative flex-1 border border-gray-300 overflow-hidden bg-gray-200 rounded-full h-2">
+                        <span class="absolute rounded-full left-0 h-1.5 top-0 w-2/3  bg-yellow-400"></span>
+                    </div>
+                    <span class="w-7 text-left">106</span>
+                </li>
+                <li class="flex items-center space-x-1.5">
+                    <span class="w-3 text-right">4</span>
+                    <svg class="h-5 w-5 stroke-yellow-400 stroke-1 fill-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+                    </svg>
+                    <div class="relative flex-1 border border-gray-300 overflow-hidden bg-gray-200 rounded-full h-2">
+                        <span class="absolute rounded-full left-0 h-1.5 top-0 w-1/3  bg-yellow-400"></span>
+                    </div>
+                    <span class="w-7 text-left">32</span>
+                </li>
+                <li class="flex items-center space-x-1.5">
+                    <span class="w-3 text-right">3</span>
+                    <svg class="h-5 w-5 stroke-yellow-400 stroke-1 fill-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+                    </svg>
+                    <div class="relative flex-1 border border-gray-300 overflow-hidden bg-gray-200 rounded-full h-2">
+                        <span class="absolute rounded-full left-0 h-1.5 top-0 w-1/5  bg-yellow-400"></span>
+                    </div>
+                    <span class="w-7 text-left">10</span>
+                </li>          
+                <li class="flex items-center space-x-1.5">
+                    <span class="w-3 text-right">2</span>
+                    <svg class="h-5 w-5 stroke-yellow-400 stroke-1 fill-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+                    </svg>
+                    <div class="relative flex-1 border border-gray-300 overflow-hidden bg-gray-200 rounded-full h-2">
+                        <span class="absolute rounded-full left-0 h-1.5 top-0 w-0  bg-yellow-400"></span>
+                    </div>
+                    <span class="w-7 text-left">0</span>
+                </li>     
+                <li class="flex items-center space-x-1.5">
+                    <span class="w-3 text-right">1</span>
+                    <svg class="h-5 w-5 stroke-yellow-400 stroke-1 fill-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+                    </svg>
+                    <div class="relative flex-1 border border-gray-300 overflow-hidden bg-gray-200 rounded-full h-2">
+                        <span class="absolute rounded-full left-0 h-1.5 top-0 w-0  bg-yellow-400"></span>
+                    </div>
+                    <span class="w-7 text-left">0</span>
+                </li>
+            </ul>
+
+        </div>
+        <div class="mt-10">
+            <button class="bg-gray-800 hover:shadow-md text-white px-5 py-3 text-xs rounded-full">Write a review</button>
+        </div>
+
+    </section>
+
+   
+
+    <section class="p-2 bg-yellow-200 fixed bottom-2 right-2 z-10 ">
+        <span class="sm:hidden">
+            < SM </span>
+                <span class="hidden sm:inline-block md:hidden"> SM </span>
+                <span class="hidden md:inline-block lg:hidden"> MD </span>
+                <span class="hidden lg:inline-block xl:hidden"> LG </span>
+                <span class="hidden xl:inline-block 2xl:hidden"> XL </span>
+                <span class="hidden 2xl:inline-block"> 2XL </span>
+    </section>
+</section>
+
+</html>
